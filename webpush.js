@@ -14,6 +14,5 @@ webpush.setVapidDetails(
 );
 
 // This is the same output of calling JSON.stringify on a PushSubscription
-const pushSubscription = {"endpoint":"https://fcm.googleapis.com/fcm/send/fXrqm-ALihc:APA91bEvaxzttGD8aKpDpmnui0l3NSMK2qzFny14uOqyv41vYdLcihDUz8QBF3HFDk8oXWPyvm9CFU-D5kVYqoeFNcKMqalUODOItD7zP7MwV-iIqmwiBkxyNOv8GIc0Wzs-5Nvx_eNk","expirationTime":null,"keys":{"p256dh":"BIavhi6tkVHGH0ghLY6cXE6xrYh46XeBUIAFiwHSTjxeC3RFElLKlfUFB4DaoqjsI20A1bQv4tmYiJsd0aKg9RU","auth":"UpnDok8_eQsfRmvs51eD9A"}}
-
+const pushSubscription = {"endpoint":"https://fcm.googleapis.com/fcm/send/fQWrx9xKub4:APA91bG7oqFNoFOWJgxdOVfYuc1Fbem5lP3q5oJvzb4yDvC1aEcB4e_Z6Go96odfCkFtr4IvV2kQMx5FD_CBXpCw5tGhVn8dwHSjr6KzKtE6ELoHoQjo79uClH98z8RdLp3DFw7092Ol","expirationTime":null,"keys":{"p256dh":"BO986gkd3y33dFnBWeyjSJ1EB1zz8KDRqjIBk0V8hpzpXyjjfJ15vFsuHCtgeUI7Wyy1Q4zRbP-4jT5XAKxZw_Y","auth":"lLNppXG8IloFgiWPUYasIA"}}
 webpush.sendNotification(pushSubscription, "Hello from a shot of code!!");
